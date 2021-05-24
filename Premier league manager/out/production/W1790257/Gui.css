@@ -1,0 +1,57 @@
+.button{
+    -fx-background-color: transparent;
+    -fx-pref-height: 20px;
+    -fx-pref-width: 150px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 30px;
+    -fx-border-width: 5;
+    -fx-cursor: hand;
+    -fx-border-color: white;
+    -fx-font-size: 14px;
+    -fx-text-alignment: center;
+    -fx-background-radius: 30px;
+}
+.button:hover{
+    -fx-text-fill: black;
+    -fx-background-color: beige;
+}
+.root{
+    -fx-background-image: url("background.jpg");
+    -fx-background-size: cover;
+    -fx-opacity: 0.8;
+
+}
+.text-field{
+    -fx-min-width: 600px;
+    -fx-max-width: 600px;
+    -fx-pref-height: 20px;
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-radius: 30;
+    -fx-text-fill: white;
+    -fx-font-weight: Bold;
+    -fx-border-width: 5;
+}
+.text-field:hover{
+    -fx-background-color: gray;
+    -fx-background-radius: 30;
+}
+.table-view{
+   -fx-opacity: 0.9;
+    -fx-font-weight: bold;
+}
+.table-view :hover{
+    -fx-background-color: dimgray;
+    -fx-text-fill: white;
+
+}
+.label-bold{
+    -fx-font-weight: bold;
+    -fx-font-size: 20px ;
+    -fx-text-fill: white;
+}
+.daytxt{
+    -fx-min-width: 100px;
+    -fx-max-width: 100px;
+}
